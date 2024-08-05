@@ -1,0 +1,12 @@
+version: '4'
+services:
+  product-db:
+    image: mongo:7.0.4
+    container_name: shopping-product-mongodb
+    volumes:
+      - ./data/product-service:/data/db
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=product
+    ports:
+      - "27021:27017"
