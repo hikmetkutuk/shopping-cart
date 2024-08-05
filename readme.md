@@ -1,7 +1,7 @@
 <p align="center">
     <img src="assets/springboot.png" alt="spring boot" width="220">  
 </p>
-<p align="center">
+<p align="center" style="margin-top: -15px">
     <img src="assets/react-typescript.png" alt="spring boot" width="200">  
 </p>
 
