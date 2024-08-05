@@ -1,8 +1,8 @@
 <p align="center">
-    <img src="assets/springboot.png" alt="spring boot" width="300">  
+    <img src="assets/springboot.png" alt="spring boot" width="220">  
 </p>
 <p align="center">
-    <img src="assets/react-typescript.png" alt="spring boot" width="300">  
+    <img src="assets/react-typescript.png" alt="spring boot" width="200">  
 </p>
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/hikmetkutuk/shopping-cart?color=inactive&logo=github&style=for-the-badge)
