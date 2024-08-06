@@ -10,3 +10,17 @@ services:
       - MONGO_INITDB_ROOT_PASSWORD=product
     ports:
       - "27021:27017"
+
+  order-db:
+    container_name: shopping-order-postgres
+    image: postgres:15.5
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: order
+      PGDATA: /data/postgres
+    volumes:
+      - ./data/order-service:/data/postgres
+      - ./docker/postgres/order-service/init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
