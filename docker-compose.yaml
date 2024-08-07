@@ -24,3 +24,17 @@ services:
     ports:
       - "5432:5432"
     restart: unless-stopped
+
+  inventory-db:
+    container_name: shopping-inventory-postgres
+    image: postgres:15.5
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: inventory
+      PGDATA: /data/postgres
+    volumes:
+      - ./data/inventory-service:/data/postgres
+      - ./docker/postgres/inventory-service/init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5433:5432"
+    restart: unless-stopped
