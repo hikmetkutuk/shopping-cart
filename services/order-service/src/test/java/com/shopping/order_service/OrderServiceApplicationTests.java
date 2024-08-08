@@ -2,7 +2,6 @@ package com.shopping.order_service;
 
 import com.shopping.order_service.stubs.InventoryClientStub;
 import io.restassured.RestAssured;
-import org.hamcrest.Matchers;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -11,8 +10,6 @@ import org.springframework.boot.testcontainers.service.connection.ServiceConnect
 import org.springframework.cloud.contract.wiremock.AutoConfigureWireMock;
 import org.springframework.context.annotation.Import;
 import org.testcontainers.containers.PostgreSQLContainer;
-
-import static org.hamcrest.MatcherAssert.assertThat;
 
 @AutoConfigureWireMock(port = 0)
 @Import(TestcontainersConfiguration.class)
