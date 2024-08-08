@@ -1,0 +1,7 @@
+application:
+  config:
+    inventory:
+      url: http://localhost:${wiremock.server.port}
+spring:
+  config:
+    import: optional:configserver:http://localhost:8888
