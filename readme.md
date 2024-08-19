@@ -16,3 +16,4 @@
 ![Keycloak](https://img.shields.io/static/v1?&logo=&label=keycloak&message=24.0.1&color=00b8e3&style=for-the-badge)
 ![Swagger](https://img.shields.io/static/v1?&logo=swagger&label=swagger&message=3.0.1&color=44cc11&style=for-the-badge)
 ![Vite](https://img.shields.io/static/v1?&logo=vite&label=vite&message=5.4.1&color=646cff&style=for-the-badge)
+![TailwindCss](https://img.shields.io/static/v1?&logo=tailwind-css&label=tailwindcss&message=3.4.10&color=38b3af&style=for-the-badge)
