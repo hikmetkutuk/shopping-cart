@@ -1,8 +1,10 @@
+import Header from "./components/Header.tsx";
+
 function App() {
     return (
         <>
-            <div>
-                <h1 className="text-3xl text-red-500 font-bold underline">Shopping Cart</h1>
+            <div className="container mx-auto p-5">
+                <Header />
             </div>
         </>
     )
